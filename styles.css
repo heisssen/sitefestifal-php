@@ -1,0 +1,171 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #87CEEB	; /* Softer, refined yellow */
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+	color: white !important; /* White text for the brand */
+
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color:#FFAC1C	;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.hero-section .btn-outline-light {
+    border-color: white;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero-section .btn-outline-light:hover {
+    background-color: white;
+    color: #2575fc;
+}
+
+/* Section Headings */
+h2 {
+    color: #007bff;
+}
+
+/* Nominations Section */
+.nominations-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f3f4f6;
+    padding: 60px 0;
+}
+
+.about-section img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Goals Section */
+.goals-section {
+    background-color: #e9f7ef;
+    padding: 60px 0;
+}
+
+.goals-section .card-body {
+    height: 150px;
+}
+
+/* Genres Section */
+.genres-section {
+    background-color: #fce4ec;
+    padding: 60px 0;
+}
+
+/* Age Categories Section */
+.age-categories-section {
+    background-color: #e8f4fa;
+    padding: 60px 0;
+}
+
+/* Participation Section */
+.participation-substrate {
+    background-color: #fff3e0;
+    padding: 60px 0;
+}
+
+/* Awards Section */
+.awards-substrate {
+    background-color: #e0f7fa;
+    padding: 60px 0;
+}
+
+/* Footer Styles */
+.footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer a {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #6a11cb;
+}
+
+footer .bi {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .bi:hover {
+    color: #6a11cb;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .card-body {
+        height: auto;
+        padding: 20px;
+    }
+}
